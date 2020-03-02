@@ -36,14 +36,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-weight: normal;
-  color: #777;
-}
+
 
 p {
   font-size: 1.1em;
@@ -51,9 +44,6 @@ p {
 }
 
 /* ヘッダー */
-
-.navbar.navbar-fixed-top.navbar-inverse{
-  background-color:teal}
 
 
 #logo {
@@ -72,7 +62,62 @@ p {
   color: #c0c0c0;
   text-decoration: none;
 }
+.navbar.navbar-fixed-top.navbar-inverse{
+  background-color:teal;
+}
+.nav.navbar-nav.navbar-right {
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav > li > a{
+  color: #fff;
+}  
 
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #c0c0c0;
+  text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background-color:teal;
+}
+
+.navbar-inverse .navbar-nav > .open > a, {
+  background-color:teal;
+}
+
+.dropdown:hover {
+  background-color:teal;
+  }
+
+.navbar-nav > .dropdown.open > a.dropdown-toggle {
+  background-color: teal;
+}  
+
+/*メイン*/
+
+h2{
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.center-jumbotron{
+  background-color:fff;
+ }
+.center-jumbotron > h1{
+  font-style:italic;
+  font-size: 63px;
+}
+/* ログインフォーム */
+
+.label-login {
+  margin-top: 5px;
+}
+
+.btn-login {
+  margin-top: 10px;
+}
 /* デバッグウインドウ */
 
 .debug_dump {
